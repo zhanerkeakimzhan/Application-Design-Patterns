@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diploma.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/userRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userRegistration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668837609440</updated>
       <workItem from="1668837610674" duration="1075000" />
-      <workItem from="1668849216985" duration="83000" />
+      <workItem from="1668849216985" duration="403000" />
     </task>
     <servers />
   </component>
