@@ -1,3 +1,3 @@
 public interface IProtocol {
-    public String protocolType(String type);
+    public void protocolType();
 }

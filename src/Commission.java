@@ -10,28 +10,46 @@ public class Commission {
         this.lastname = lastname;
         this.contacts = contacts;
     }
+
     public int getiDCommission() {
         return iDCommission;
     }
+
     public void setiDCommission(int iDCommission) {
         this.iDCommission = iDCommission;
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public String getLastname() {
         return lastname;
     }
+
     public void setLastname(String lastname) {
         this.lastname = lastname;
     }
+
     public String getContacts() {
         return contacts;
     }
+
     public void setContacts(String contacts) {
         this.contacts = contacts;
+    }
+
+    @Override
+    public String toString() {
+        return "Commission{" +
+                "iDCommission=" + iDCommission +
+                ", name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", contacts='" + contacts + '\'' +
+                '}';
     }
 }
