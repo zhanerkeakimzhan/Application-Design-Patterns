@@ -1,10 +1,10 @@
 public class Secretary {
     private String secretaryName;
-    private int idStudent;
-    private int idTeacher;
-    private int idCommission;
+    private Student idStudent;
+    private Teacher idTeacher;
+    private Commission idCommission;
 
-    public Secretary(String secretaryName, int idStudent, int idTeacher, int idCommission) {
+    public Secretary(String secretaryName, Student idStudent, Teacher idTeacher, Commission idCommission) {
         this.secretaryName = secretaryName;
         this.idStudent = idStudent;
         this.idTeacher = idTeacher;
@@ -19,27 +19,37 @@ public class Secretary {
         this.secretaryName = secretaryName;
     }
 
-    public int getIdStudent() {
+    public Student getIdStudent() {
         return idStudent;
     }
 
-    public void setIdStudent(int idStudent) {
+    public void setIdStudent(Student idStudent) {
         this.idStudent = idStudent;
     }
 
-    public int getIdTeacher() {
+    public Teacher getIdTeacher() {
         return idTeacher;
     }
 
-    public void setIdTeacher(int idTeacher) {
+    public void setIdTeacher(Teacher idTeacher) {
         this.idTeacher = idTeacher;
     }
 
-    public int getIdCommission() {
+    public Commission getIdCommission() {
         return idCommission;
     }
 
-    public void setIdCommission(int idCommission) {
+    public void setIdCommission(Commission idCommission) {
         this.idCommission = idCommission;
+    }
+
+    @Override
+    public String toString() {
+        return "Secretary{" +
+                "secretaryName='" + secretaryName + '\'' +
+                ", idStudent=" + idStudent +
+                ", idTeacher=" + idTeacher +
+                ", idCommission=" + idCommission +
+                '}';
     }
 }
