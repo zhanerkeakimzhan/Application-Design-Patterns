@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/DiplomaGot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThesisDefended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThesisFinished.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TitleSelected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diploma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diploma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +72,7 @@
       <updated>1668837609440</updated>
       <workItem from="1668837610674" duration="1075000" />
       <workItem from="1668849216985" duration="403000" />
-      <workItem from="1668949054013" duration="4250000" />
+      <workItem from="1668949054013" duration="4605000" />
     </task>
     <servers />
   </component>
