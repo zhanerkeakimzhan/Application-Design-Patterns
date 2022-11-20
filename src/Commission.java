@@ -1,9 +1,11 @@
 public class Commission {
+    private int idCommission;
     private String commissionName;
-    private int idStudent;
-    private int idTeacher;
+    private Student idStudent;
+    private Teacher idTeacher;
 
-    public Commission(String commissionName, int idStudent, int idTeacher) {
+    public Commission(int idCommission, String commissionName, Student idStudent, Teacher idTeacher) {
+        this.idCommission = idCommission;
         this.commissionName = commissionName;
         this.idStudent = idStudent;
         this.idTeacher = idTeacher;
@@ -17,19 +19,37 @@ public class Commission {
         this.commissionName = commissionName;
     }
 
-    public int getIdStudent() {
+    public Student getIdStudent() {
         return idStudent;
     }
 
-    public void setIdStudent(int idStudent) {
+    public void setIdStudent(Student idStudent) {
         this.idStudent = idStudent;
     }
 
-    public int getIdTeacher() {
+    public Teacher getIdTeacher() {
         return idTeacher;
     }
 
-    public void setIdTeacher(int idTeacher) {
+    public void setIdTeacher(Teacher idTeacher) {
         this.idTeacher = idTeacher;
+    }
+
+    public int getIdCommission() {
+        return idCommission;
+    }
+
+    public void setIdCommission(int idCommission) {
+        this.idCommission = idCommission;
+    }
+
+    @Override
+    public String toString() {
+        return "Commission{" +
+                "idCommission=" + idCommission +
+                ", commissionName='" + commissionName + '\'' +
+                ", idStudent=" + idStudent +
+                ", idTeacher=" + idTeacher +
+                '}';
     }
 }

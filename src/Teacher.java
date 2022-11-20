@@ -1,8 +1,10 @@
 public class Teacher {
+    private int idTeacher;
     private String teacherName;
-    private int idStudent;
+    private Student idStudent;
 
-    public Teacher(String teacherName, int idStudent) {
+    public Teacher(int idTeacher, String teacherName, Student idStudent) {
+        this.idTeacher = idTeacher;
         this.teacherName = teacherName;
         this.idStudent = idStudent;
     }
@@ -15,11 +17,28 @@ public class Teacher {
         this.teacherName = teacherName;
     }
 
-    public int getIdStudent() {
+    public Student getIdStudent() {
         return idStudent;
     }
 
-    public void setIdStudent(int idStudent) {
+    public void setIdStudent(Student idStudent) {
         this.idStudent = idStudent;
+    }
+
+    public int getIdTeacher() {
+        return idTeacher;
+    }
+
+    public void setIdTeacher(int idTeacher) {
+        this.idTeacher = idTeacher;
+    }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "idTeacher=" + idTeacher +
+                ", teacherName='" + teacherName + '\'' +
+                ", idStudent=" + idStudent +
+                '}';
     }
 }

@@ -1,9 +1,8 @@
-public class UserLogin extends UserRegistration{
+public class UserLogin{
     private String userName;
     private int password;
 
-    public UserLogin(int idUser, String firstName, String lastName, String gender, String email, String login, Institute idInstitute, Department idDepartment, int idJob, String userName, int password) {
-        super(idUser, firstName, lastName, gender, email, login, idInstitute, idDepartment, idJob);
+    public UserLogin(String userName, int password) {
         this.userName = userName;
         this.password = password;
     }
