@@ -1,7 +1,7 @@
 public class Protocol_2 implements IProtocol{
 
     @Override
-    public String protocolType(String type) {
-        return "Протокол 2";
+    public void protocolType() {
+        System.out.println("Протокол 2");
     }
 }
