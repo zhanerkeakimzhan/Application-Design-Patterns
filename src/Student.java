@@ -13,7 +13,6 @@ public class Student {
 
     public Student(){
         this.state = new TitleSelected(this);
-
     }
 
     public int getStudentId() {

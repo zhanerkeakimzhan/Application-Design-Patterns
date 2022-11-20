@@ -53,6 +53,18 @@ public class University {
         students.add(student);
     }
 
+    public void addTeacher(Teacher teacher){
+        teachers.add(teacher);
+    }
+
+    public void addCommission(Commission commission){
+        commissions.add(commission);
+    }
+
+    public void addSecretary(Secretary secretary){
+        secretaries.add(secretary);
+    }
+
     public String toString(){
         StringBuilder sb = new StringBuilder("{");
         for (Student aStudent : students){
