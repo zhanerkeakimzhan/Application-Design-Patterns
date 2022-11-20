@@ -4,7 +4,7 @@ public class Student {
     private State state;
     private boolean diplomaTitle = false;
 
-    public Student(int studentId, String studentName, State state, boolean diplomaTitle) {
+    public Student(int studentId, String studentName, boolean diplomaTitle) {
         this.studentId = studentId;
         this.studentName = studentName;
         this.state = new TitleSelected(this);
