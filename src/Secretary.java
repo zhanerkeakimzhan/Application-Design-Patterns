@@ -52,4 +52,15 @@ public class Secretary{
     public void setDocument(Document document) {
         this.document = document;
     }
+
+    @Override
+    public String toString() {
+        return "Secretary{" +
+                "secretaryName='" + secretaryName + '\'' +
+                ", studentId=" + studentId +
+                ", teacherId=" + teacherId +
+                ", commissionId=" + commissionId +
+                ", document=" + document +
+                '}';
+    }
 }

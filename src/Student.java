@@ -47,13 +47,26 @@ public class Student {
     public void changeState(State state){
         this.state = state;
     }
+
     public String finishThesis(){
         return "Thesis finished";
-    };
+    }
+
     public String defendThesis(){
         return "Thesis defended";
-    };
+    }
+
     public String getDiploma(){
         return "Diploma got";
-    };
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId=" + studentId +
+                ", studentName='" + studentName + '\'' +
+                ", state=" + state +
+                ", diplomaTitle=" + diplomaTitle +
+                '}';
+    }
 }

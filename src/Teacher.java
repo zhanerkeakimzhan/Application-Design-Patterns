@@ -28,4 +28,13 @@ public class Teacher extends TypeOfTeachers{
     public void setStudentId(Student studentId) {
         this.studentId = studentId;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "teacherId='" + teacherId + '\'' +
+                ", studentId=" + studentId +
+                ", type='" + type + '\'' +
+                '}';
+    }
 }
