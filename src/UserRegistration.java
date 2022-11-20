@@ -5,11 +5,11 @@ public class UserRegistration {
     private String gender;
     private String email;
     private String login;
-    private int idInstitute;
-    private int idDepartment;
+    private Institute idInstitute;
+    private Department idDepartment;
     private int idJob;
 
-    public UserRegistration(int idUser, String firstName, String lastName, String gender, String email, String login, int idInstitute, int idDepartment, int idJob) {
+    public UserRegistration(int idUser, String firstName, String lastName, String gender, String email, String login, Institute idInstitute, Department idDepartment, int idJob) {
         this.idUser = idUser;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -69,19 +69,19 @@ public class UserRegistration {
         this.login = login;
     }
 
-    public int getIdInstitute() {
+    public Institute getIdInstitute() {
         return idInstitute;
     }
 
-    public void setIdInstitute(int idInstitute) {
+    public void setIdInstitute(Institute idInstitute) {
         this.idInstitute = idInstitute;
     }
 
-    public int getIdDepartment() {
+    public Department getIdDepartment() {
         return idDepartment;
     }
 
-    public void setIdDepartment(int idDepartment) {
+    public void setIdDepartment(Department idDepartment) {
         this.idDepartment = idDepartment;
     }
 
@@ -91,5 +91,20 @@ public class UserRegistration {
 
     public void setIdJob(int idJob) {
         this.idJob = idJob;
+    }
+
+    @Override
+    public String toString() {
+        return "UserRegistration{" +
+                "idUser=" + idUser +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", gender='" + gender + '\'' +
+                ", email='" + email + '\'' +
+                ", login='" + login + '\'' +
+                ", idInstitute=" + idInstitute +
+                ", idDepartment=" + idDepartment +
+                ", idJob=" + idJob +
+                '}';
     }
 }
