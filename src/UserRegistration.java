@@ -21,4 +21,75 @@ public class UserRegistration {
         this.idJob = idJob;
     }
 
+    public int getIdUser() {
+        return idUser;
+    }
+
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public int getIdInstitute() {
+        return idInstitute;
+    }
+
+    public void setIdInstitute(int idInstitute) {
+        this.idInstitute = idInstitute;
+    }
+
+    public int getIdDepartment() {
+        return idDepartment;
+    }
+
+    public void setIdDepartment(int idDepartment) {
+        this.idDepartment = idDepartment;
+    }
+
+    public int getIdJob() {
+        return idJob;
+    }
+
+    public void setIdJob(int idJob) {
+        this.idJob = idJob;
+    }
 }
