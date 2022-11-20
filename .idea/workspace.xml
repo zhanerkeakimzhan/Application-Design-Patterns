@@ -4,15 +4,36 @@
     <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Commission.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Commission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Diploma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Diploma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/DiplomaGot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/DiplomaGot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Doctoral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Doctoral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/IDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/IDocument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/IProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/IProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Institute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Lecturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Lecturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Magist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Magist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Professor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/ProtocolDocument_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/ProtocolDocument_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/ProtocolDocument_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/ProtocolDocument_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Protocol_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Protocol_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Protocol_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Protocol_2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Secretary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Secretary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/State.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/ThesisDefended.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/ThesisDefended.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/ThesisFinished.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/ThesisFinished.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/TitleSelected.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/TitleSelected.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/TypeOfTeachers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/TypeOfTeachers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Types.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/University.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/UserLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/userRegistration.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProtocolDocument_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProtocolDocument_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProtocolDocument_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProtocolDocument_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Secretary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +70,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="dart.analysis.tool.window.visible" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\diploma\src" />
@@ -80,6 +103,7 @@
       <workItem from="1668837610674" duration="1075000" />
       <workItem from="1668849216985" duration="403000" />
       <workItem from="1668949054013" duration="4605000" />
+      <workItem from="1668959429317" duration="1455000" />
     </task>
     <servers />
   </component>
@@ -96,7 +120,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

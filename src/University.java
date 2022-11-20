@@ -1,46 +1,37 @@
+import java.util.List;
+
 public class University {
     private Student student;
     private Teacher teacher;
     private Commission commission;
     private Secretary secretary;
+    private List<Student> students;
+    private List<Teacher> teachers;
 
-    public University(Student student, Teacher teacher, Commission commission, Secretary secretary) {
-        this.student = student;
-        this.teacher = teacher;
-        this.commission = commission;
-        this.secretary = secretary;
+    public University(List<Student> students){
+        this.students = students;
     }
 
-    public Student getStudent() {
-        return student;
+
+
+    public List<Student> getStudents() {
+        return students;
     }
 
-    public void setStudent(Student student) {
-        this.student = student;
+    public void setStudents(List<Student> students) {
+        this.students = students;
     }
 
-    public Teacher getTeacher() {
-        return teacher;
+    public void addStudent(Student student){
+        students.add(student);
     }
 
-    public void setTeacher(Teacher teacher) {
-        this.teacher = teacher;
+    public String toString(){
+        StringBuilder sb = new StringBuilder("{");
+        for (Student aStudent : students){
+            sb.append(aStudent.toString());
+        }
+        sb.append("}");
+        return sb.toString();
     }
-
-    public Commission getCommission() {
-        return commission;
-    }
-
-    public void setCommission(Commission commission) {
-        this.commission = commission;
-    }
-
-    public Secretary getSecretary() {
-        return secretary;
-    }
-
-    public void setSecretary(Secretary secretary) {
-        this.secretary = secretary;
-    }
-
 }
