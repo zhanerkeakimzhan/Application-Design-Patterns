@@ -1,11 +1,11 @@
 public class TitleSelected extends State{
     public TitleSelected(Student student) {
         super(student);
-        student.setDiplomatitle(false);
+        student.setDiplomaTitle(false);
     }
     @Override
     public String chooseTitle() {
-        if (student.isDiplomatitle()){
+        if (student.isDiplomaTitle()){
             student.changeState(new ThesisFinished(student));
             return "Выбор темы дипломной работы";
         }else return "Тема дипломной работы выбран";
