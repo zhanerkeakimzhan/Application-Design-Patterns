@@ -45,6 +45,18 @@ public class University {
         return students;
     }
 
+    public void addStudent(String student) {
+
+    }
+
+    @Override
+    public String toString() {
+        return "University{" +
+                "student=" + student +
+                ", teacher=" + teacher +
+                ", commission=" + commission +
+                ", secretary=" + secretary +
+                '}';
     public void setStudents(List<Student> students) {
         this.students = students;
     }
