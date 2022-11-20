@@ -2,6 +2,7 @@ public class DiplomaGot extends State{
     public DiplomaGot(Student student){
         super(student);
     }
+
     @Override
     public String chooseTitle() {
         student.changeState(new TitleSelected(student));
