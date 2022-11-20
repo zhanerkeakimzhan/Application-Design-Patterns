@@ -1,12 +1,18 @@
 public class Student {
     private int studentId;
     private String studentName;
-    private String diplomaTitle;
-
-    public Student(int studentId, String studentName, String diplomaTitle) {
+    private State state;
+    private boolean diplomatitle = false;
+    public Student(int studentId, String studentName, State state, boolean diplomatitle) {
         this.studentId = studentId;
         this.studentName = studentName;
-        this.diplomaTitle = diplomaTitle;
+        this.state = new TitleSelected(this);
+        this.diplomatitle = false;
+    }
+
+    public Student(){
+        this.state = new TitleSelected(this);
+
     }
 
     public int getStudentId() {
@@ -25,13 +31,28 @@ public class Student {
         this.studentName = studentName;
     }
 
-    public String getDiplomaTitle() {
-        return diplomaTitle;
+    public State getState() {
+        return state;
     }
 
-    public void setDiplomaTitle(String diplomaTitle) {
-        this.diplomaTitle = diplomaTitle;
+    public boolean isDiplomatitle() {
+        return diplomatitle;
     }
 
+    public void setDiplomatitle(boolean diplomatitle) {
+        this.diplomatitle = diplomatitle;
+    }
 
+    public void changeState(State state){
+        this.state = state;
+    }
+    public String finishThesis(){
+        return "Thesis finished";
+    };
+    public String defendThesis(){
+        return "Thesis defended";
+    };
+    public String getDiploma(){
+        return "Diploma got";
+    };
 }
