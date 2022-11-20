@@ -1,4 +1,4 @@
-public class UserRegistration {
+public class UserRegistration extends UserLogin{
     private int idUser;
     private String firstName;
     private String lastName;
@@ -9,7 +9,8 @@ public class UserRegistration {
     private Department idDepartment;
     private int idJob;
 
-    public UserRegistration(int idUser, String firstName, String lastName, String gender, String email, String login, Institute idInstitute, Department idDepartment, int idJob) {
+    public UserRegistration(String userName, int password, int idUser, String firstName, String lastName, String gender, String email, String login, Institute idInstitute, Department idDepartment, int idJob) {
+        super(userName, password);
         this.idUser = idUser;
         this.firstName = firstName;
         this.lastName = lastName;
