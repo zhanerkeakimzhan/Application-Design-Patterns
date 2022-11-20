@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/diploma/userRegistration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IShow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Institute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Secretary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserRegistration.java" beforeDir="false" />
-    </list>
+    <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
