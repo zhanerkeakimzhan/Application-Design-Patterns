@@ -14,12 +14,11 @@ public class Main {
         students.add(student1);
 
         University university = new University(students);
-
+        
         Student student2 = new Student(3, "Cccc", true);
         university.addStudent(student2);
 
         university.toString();
-
     }
 
     static IDocument createDocumentsByProtocol(String documents) {
