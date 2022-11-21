@@ -1,39 +1,40 @@
 public class Teacher extends TypeOfTeachers{
-    private String teacherId;
-    private Student studentId;
-
-    private final String type;
+    private int teacherId;
+    private String name;
     public Teacher(){
         type = "Преподаватель";
     }
 
-    public Teacher(String teacherId, Student studentId, String type) {
+    public Teacher(int teacherId, String name) {
         this.teacherId = teacherId;
-        this.studentId = studentId;
-        this.type = type;
+        this.name = name;
     }
 
-    public String getTeacherId() {
+    public int getTeacherId() {
         return teacherId;
     }
 
-    public void setTeacherId(String teacherId) {
+    public void setTeacherId(int teacherId) {
         this.teacherId = teacherId;
     }
 
-    public Student getStudentId() {
-        return studentId;
+    public String getName() {
+        return name;
     }
 
-    public void setStudentId(Student studentId) {
-        this.studentId = studentId;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
+    public String getType() {
+        return type;
+    }
+    @Override
     public String toString() {
         return "Teacher{" +
-                "teacherId='" + teacherId + '\'' +
-                ", studentId=" + studentId +
+                "teacherId=" + teacherId +
+                ", name='" + name + '\'' +
                 ", type='" + type + '\'' +
                 '}';
     }

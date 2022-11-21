@@ -8,6 +8,12 @@ public class University {
     public University(List<Student> students){
         this.students = students;
     }
+    public University(List<Student> students, List<Teacher> teachers, List<Commission> commissions, List<Secretary> secretaries) {
+        this.students = students;
+        this.teachers = teachers;
+        this.commissions = commissions;
+        this.secretaries = secretaries;
+    }
     public List<Student> getStudents() {
         return students;
     }
@@ -52,7 +58,7 @@ public class University {
         secretaries.add(secretary);
     }
     public String toString(){
-        StringBuilder sb = new StringBuilder("{");
+        StringBuilder sb = new StringBuilder("\n{");
         for (Student aStudent : students){
             sb.append(aStudent.toString());
         }
