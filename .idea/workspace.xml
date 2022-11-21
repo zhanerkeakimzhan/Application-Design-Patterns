@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="Changes">
+    <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/ProtocolDocument_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/ProtocolDocument_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Protocol_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Protocol_1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/ThesisFinished.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/ThesisFinished.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/TypeOfTeachers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/TypeOfTeachers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/University.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProtocolDocument_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProtocolDocument_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Protocol_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Protocol_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThesisFinished.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThesisFinished.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeOfTeachers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeOfTeachers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +57,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\diploma\src" />
@@ -64,6 +74,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="diploma" />
       <method v="2">

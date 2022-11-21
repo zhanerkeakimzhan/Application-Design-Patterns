@@ -4,11 +4,10 @@ public class Student {
     private State state;
     private boolean diplomaTitle = false;
 
-    public Student(int studentId, String studentName, boolean diplomaTitle) {
+    public Student(int studentId, String studentName) {
         this.studentId = studentId;
         this.studentName = studentName;
         this.state = new TitleSelected(this);
-        this.diplomaTitle = false;
     }
 
     public Student(){
@@ -33,6 +32,10 @@ public class Student {
 
     public State getState() {
         return state;
+    }
+
+    public void setState(State state) {
+        this.state = state;
     }
 
     public boolean isDiplomaTitle() {
@@ -66,7 +69,6 @@ public class Student {
                 "studentId=" + studentId +
                 ", studentName='" + studentName + '\'' +
                 ", state=" + state +
-                ", diplomaTitle=" + diplomaTitle +
-                '}';
+                "}\n";
     }
 }

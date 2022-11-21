@@ -1,4 +1,5 @@
 public class ThesisFinished extends State{
+    Student student;
     public ThesisFinished(Student student) {
         super(student);
     }
