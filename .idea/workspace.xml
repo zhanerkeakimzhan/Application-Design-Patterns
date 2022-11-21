@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9ce865-97b1-44c3-be6a-c6807e64a69d" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/diploma/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/diploma/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/diploma/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/diploma/Protocol_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/diploma/Protocol_1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Protocol_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Protocol_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Protocol_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Protocol_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -48,9 +54,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
