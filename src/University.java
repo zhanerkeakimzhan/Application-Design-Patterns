@@ -8,6 +8,12 @@ public class University {
     public University(List<Student> students){
         this.students = students;
     }
+    public University(List<Student> students, List<Teacher> teachers, List<Commission> commissions, List<Secretary> secretaries) {
+        this.students = students;
+        this.teachers = teachers;
+        this.commissions = commissions;
+        this.secretaries = secretaries;
+    }
     public List<Student> getStudents() {
         return students;
     }

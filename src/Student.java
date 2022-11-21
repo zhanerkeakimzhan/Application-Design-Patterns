@@ -59,6 +59,7 @@ public class Student {
         return "Diploma got";
     }
 
+
     @Override
     public String toString() {
         return "Student{" +

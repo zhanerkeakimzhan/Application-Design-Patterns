@@ -3,7 +3,6 @@ public abstract class State {
     public State(Student student) {
         this.student = student;
     }
-
     public abstract String chooseTitle();
     public abstract String finishThesis();
     public abstract String defendThesis();
