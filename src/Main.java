@@ -29,6 +29,13 @@ public class Main {
         university.addStudent(student2);
 
         System.out.println(university.toString());
+
+        //builder
+        Director director = new Director();
+
+        director.setBuilder(new MondayDiploma());
+        Diploma diploma = director.buildDiploma();
+        System.out.println(diploma);
     }
 
     static IDocument createDocumentsByProtocol(String documents) {

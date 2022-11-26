@@ -58,11 +58,11 @@ public class University {
         secretaries.add(secretary);
     }
     public String toString(){
-        StringBuilder sb = new StringBuilder("\n{\n");
+        StringBuilder sb = new StringBuilder("\n");
         for (Student aStudent : students){
             sb.append(aStudent.toString());
         }
-        sb.append("}");
+        sb.append(" ");
         return sb.toString();
     }
 }
