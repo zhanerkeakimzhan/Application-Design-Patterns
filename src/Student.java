@@ -65,8 +65,8 @@ public class Student {
 
     @Override
     public String toString() {
-        return "student Id = " + studentId +
+        return "Student[student Id = " + studentId +
                 ", student Name = '" + studentName + '\'' +
-                ", state = " + state + "\n";
+                ", state = " + state + "]\n";
     }
 }
