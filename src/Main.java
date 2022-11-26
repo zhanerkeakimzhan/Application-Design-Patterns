@@ -15,18 +15,9 @@ public class Main {
         Student student = new Student(1, "Aaaa");
         Student student1 = new Student(2, "Bbbb");
 
-        //System.out.println(student1.toString());
-
-        //student1.changeState(student1.getState().finishThesis());
-
-//        student.finishThesis();
-//
-//        student.changeState(student.getState());
 
         State finish = new ThesisFinished(student);
         student.setState(finish);
-
-        //System.out.println(student1.toString());
 
         List<Student> students = new ArrayList<Student>();
         students.add(student);

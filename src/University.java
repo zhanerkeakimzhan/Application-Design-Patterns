@@ -58,7 +58,7 @@ public class University {
         secretaries.add(secretary);
     }
     public String toString(){
-        StringBuilder sb = new StringBuilder("\n{");
+        StringBuilder sb = new StringBuilder("\n{\n");
         for (Student aStudent : students){
             sb.append(aStudent.toString());
         }
